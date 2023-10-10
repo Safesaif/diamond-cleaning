@@ -1,0 +1,77 @@
+/* 
+
+@Author : Saif-Dine Sahbani
+Website : https://sahbani.com/
+LinkedIn : https://www.linkedin.com/in/saif-dine/
+
+*/
+
+
+
+:root {
+
+/* COLORS */
+    --base-color: white;
+    --base-darkish: #cacaca;
+    --base-contrast: black;
+    --deepskyblue: #00bfff;
+    /* #00ccff */
+    --dimgrey: #696969;
+
+
+/* SPACINGS */
+    /* extra large */
+    --spacing-xl: 100px;
+    /* large */
+    --spacing-l: 48px;
+    /* medium */
+    --spacing-m: 32px;
+    /* regular */
+    --spacing-r: 16px; 
+
+}
+
+
+.main-color{color: var(--base-color);}
+.main-darker-color{color: var(--base-darker);}
+.second-color{color: var(--secondary-color);}
+
+.brand-color1{color: var(--deepskyblue)}
+.brand-color2{color: var(--dimgrey)}
+
+
+/* 
+    SPACINGS
+*/
+
+.padding-xl{ padding: var(--spacing-xl); }
+.margin-xl{ margin: var(--spacing-xl); }
+.mt-xl{ margin-top: var(--spacing-xl); }
+.mb-xl{ margin-bottom: var(--spacing-xl); }
+.pt-xl{ padding-top: var(--spacing-xl); }
+.pb-xl{ padding-bottom: var(--spacing-xl); }
+
+.padding-l{ padding: var(--spacing-l); }
+.margin-l{ margin: var(--spacing-l); }
+.mt-l{ margin-top: var(--spacing-l); }
+.mb-l{ margin-bottom: var(--spacing-l); }
+.pt-l{ padding-top: var(--spacing-l); }
+.pb-l{ padding-bottom: var(--spacing-l); }
+
+.padding-m{ padding: var(--spacing-m); }
+.margin-m{ margin: var(--spacing-m); }
+.mt-m{ margin-top: var(--spacing-m); }
+.mb-m{ margin-bottom: var(--spacing-m); }
+.pt-m{ padding-top: var(--spacing-m); }
+.pb-m{ padding-bottom: var(--spacing-m); }
+
+.padding-r{ padding: var(--spacing-r); }
+.margin-r{ margin: var(--spacing-r); }
+.mt-r{ margin-top: var(--spacing-r); }
+.mb-r{ margin-bottom: var(--spacing-r); }
+.pt-r{ padding-top: var(--spacing-r); }
+.pb-r{ padding-bottom: var(--spacing-r); }
+
+
+
+

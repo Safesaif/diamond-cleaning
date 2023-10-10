@@ -1,0 +1,31 @@
+/* 
+
+@Author : Saif-Dine Sahbani
+Website : https://sahbani.com/
+LinkedIn : https://www.linkedin.com/in/saif-dine/
+
+*/
+
+
+.element_trapeze{
+    clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
+    width: 200%;
+    height: 100%;
+    background-color: var(--base-contrast);
+    background-size: cover;
+    margin-left: 0; 
+    margin-right: auto; 
+    
+}
+.element_triangle{
+    border-top: 400px solid var(--deepskyblue) !important;
+    border-left: 400px solid transparent;
+	height: 0;
+	width: 0;
+    margin-left: auto; 
+    margin-right: 0;
+    /* position: relative; */
+}
+
+
+

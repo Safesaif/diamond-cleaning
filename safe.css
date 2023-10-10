@@ -1,0 +1,195 @@
+/* 
+
+@Author : Saif-Dine Sahbani
+Website : https://sahbani.com/
+LinkedIn : https://www.linkedin.com/in/saif-dine/
+
+*/
+
+
+.hovering, .hovering-opacity:hover{opacity:0.60}.w3-opacity-off,.hovering-opacity-off:hover{opacity:1}
+
+
+.keep-color-on-hover :hover{
+    color: var(--base-color) !important;
+}
+
+
+
+
+.thinborders{
+  border:.5px solid var(--base-color); 
+  /* margin-left: 100px; */
+  /* box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; */
+  /* width: 60rem;
+  height: 50rem;
+  margin: 10px;
+  margin: auto;
+  margin-bottom:  8rem; */
+}
+
+
+.containerAlpha {
+  position: relative;
+  text-align: center;
+  color: var(--base-color);
+}
+
+
+.top-rightText {
+  
+  top: 15%;
+  right: 0px;
+  position: absolute;
+  font-size: 350%; font-family: 'Times New Roman';
+}
+
+.top-rightText2 {
+  
+  top: 25%;
+  right: -15%;
+  position: absolute;
+  font-size: 550%; font-family: 'Papyrus';
+}
+
+.headingAlpha {
+  
+  color: var(--base-contrast);
+  text-align: center;
+  padding-bottom: 2% ;
+  padding-top: 2% ;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 300%;
+  min-height: auto;
+  font-weight: 400;
+  font-family: 'Times New Roman', monospace;
+  text-decoration: underline;
+}
+
+
+
+
+/* Image changes when hover */
+/* credit: https://www.tutorialrepublic.com/faq/how-to-change-image-on-hover-with-css.php */
+.cardA {
+  width: 130px;
+  height: 195px;
+  position: relative;
+  display: inline-block;
+}
+.cardA .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.cardA:hover .img-top {
+  display: inline;
+}
+
+/* end */
+
+
+.commontext{
+  color: var(--base-contrast);
+  text-align: center;
+  padding: 15px 5%;
+  text-decoration: none;
+  font-size: 100%;
+  font-family: 'Courier New', monospace;
+}
+
+
+.heading5{
+  font-size: 2vw;
+  font-weight: 400;
+  font-family: 'Times New Roman', monospace;
+}
+
+
+
+
+
+/* I. Education Tabs */
+.edu-tab-title{
+  color:#003547 !important; 
+  font-size: 150%; 
+  font-family: 'Courier New', monospace; 
+  font-weight: 900;
+}
+
+
+
+.edu-tab .nav-link{
+  text-align: center ; 
+  padding-top: 1rem ; 
+  padding-bottom: 1rem ; 
+  color:inherit;
+  border-top:10px solid var(--secondary-color); 
+  margin-bottom: 8px;
+}
+
+.edu-tab .nav-link:not(.active){ 
+  box-shadow:  0 2px 4px rgba(0, 0, 0, 0.1); /*0 8px 16px rgb(0 0 0 / 10%);*/ /* .box-shadow-onInActive */
+  border-top: 4px solid transparent !important; /* .nofocus-blur  #fff*/
+}
+
+/* .edu-tab .nav-link .active{ 
+  box-shadow:  0 2px 4px rgba(0, 0, 0, 0.1); 
+  border-top: 4px solid transparent !important; 
+  
+} */
+
+
+.tab-active-topborder-bar{ border-top: 10px solid var(--secondary-color) !important; }
+.tab-bottomborder-bar{ border-bottom:solid var(--secondary-color) !important; }
+
+/* ENDS */
+
+
+
+
+
+/* DEMO-SPECIFIC STYLES */
+ /* Source : https://css-tricks.com/snippets/css/typewriter-effect/  */
+ .typewriter h1 {
+  color: var(--base-color);
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid var(--gamma-color); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: var(--gamma-color) }
+}
+
+
+.blinking_resume {
+  animation: sblinker 2s linear infinite;
+}
+
+@keyframes sblinker {
+  50% {
+    opacity: 0.1;
+  }
+}
+
+/* ENDS */
